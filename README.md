@@ -4,4 +4,5 @@
 alert("Welcome CDN Worked");
 $( "#h1" ).click(function() {
   alert("also JQ Worked");
+  $("body").css("background-color", "red");
 });
